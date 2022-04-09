@@ -10,3 +10,6 @@ p{
     background-color: white;
     border-radius: 10px;
 }
+#createRepo{
+    width: 60%;
+}
