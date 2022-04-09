@@ -14,6 +14,7 @@ h2{
 p{
     background-color: white;
     border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #createRepo{
     width: 60%;
@@ -24,8 +25,20 @@ p{
 ul{
     background-color: rgb(164, 245, 245);
     border-radius: 10px;
+    padding:3%
 }
 ol{
     background-color: rgb(164, 245, 245);
     border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    border-radius: 10px;
+    margin: 1%;
 }
