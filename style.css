@@ -21,3 +21,11 @@ p{
 #firstcommit{
     width: 90%;
 }
+ul{
+    background-color: rgb(164, 245, 245);
+    border-radius: 10px;
+}
+ol{
+    background-color: rgb(164, 245, 245);
+    border-radius: 10px;
+}
