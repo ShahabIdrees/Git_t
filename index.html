@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git/GitHub Tutorial</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -41,11 +41,12 @@
         <li>Copy the following (first 2) commands and paste it in the command line (Navigate to the folder first)</li>
         <img style="width: 100%;" src="images\copy.png" alt="">
         <li>To check the status use "git status"</li>
-        <img src="images\gitStatus.png" alt="">
+        <img style="width: 100%; " src="images\gitStatus.png" alt="">
         <li>After that add the desired files by using "git add file-name" </li>
         <li>Commit the changes by typing "git commit -m "commit_title" - "commit_description" "</li>
-        <img src="" alt="">
+        <img style="width: 100%;" src="images\commit.png" alt="">
         <li>Finally push the files to github by typing "git push"</li>
+        <img style="width: 100%;" src="images\push.png" alt="">
     </ol>
 
     <h2>Making and committing changes</h2>
@@ -62,7 +63,28 @@
         <li>Click Commit changes.</li>
         <img id = "firstcommit" src="images\first-commit.png" alt="">
     </ol>
-
+    <h2>Creating a branch</h2>
+    <p>
+        Branching lets you have different versions of a repository at one time. <br>
+        By default, your repository has one branch named main that is considered to be the definitive branch. 
+        You can create additional branches off of main in your repository. 
+        You can use branches to have different versions of a project at one time. 
+        This is helpful when you want to add new features to a project without changing the main source of code. 
+        The work done on different branches will not show up on the main branch until you merge it, which we will cover later in this guide. 
+        You can use branches to experiment and make edits before committing them to main. <br>
+        When you create a branch off the main branch, you're making a copy, or snapshot, of main as it was at that point in time. 
+        If someone else made changes to the main branch while you were working on your branch, you could pull in those updates. <br>
+        
+        
+        
+    </p>
+    This diagram shows:
+    <ul>
+        <li>The main branch</li>
+        <li>A new branch called feature</li>
+        <li>The journey that feature takes before it's merged into main</li>
+        <img style="width: 100%;" src="images\branching.png" alt="">
+    </ul>
 
 </body>
 </html>
